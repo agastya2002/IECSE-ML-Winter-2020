@@ -9,7 +9,7 @@
 
 - Initialize a repository in the directory(this is just for information, you won't need this for any task) ```git init <Project Name>```
 
-- Type ```IECSE-ML-Winter-2020```
+- Type ```cd IECSE-ML-Winter-2020```
 
 - Create a new branch with your name using the command ```git checkout -b <branch-name>```, with branch name in format ```<full name with '-' for space>. eg.- git checkout -b John-Doe```
 
