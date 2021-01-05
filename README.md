@@ -1,8 +1,21 @@
 # IECSE-ML-Winter-2020
 
-## The winter Machine Learning project of IECSE 2020
+## The Winter Domain Bootcamp for Machine Learning project of IECSE 2020
 
 **Instructions:**
+
+## Configure Tooling
+#### Configure user information for all local repositories
+
+Sets the name you want attached to your commit transactions:
+
+ ```$ git config --global user.name "[name]"``` 
+
+Sets the email you want attached to your commit transactions:
+
+  ```$ git config --global user.email "[email address]"``` 
+
+This will be required to be done for any github processes over the net. You have to do it only once.
 
 - Clone the IECSE ML Winter Project repository
 ```git clone https://github.com/agastya2002/IECSE-ML-Winter-2020.git```
