@@ -32,7 +32,7 @@ This will be required to be done for any github processes over the net. You have
 ```git checkout main```
 ```git pull origin main```
 
-- Steps to submit your code.
+- Steps to submit your code. (Only for WC)
 * Add files to be committed using the command ```git add .``` (the "." after add means all files in the current directory will be added)
 * Add a descriptive commit message for the same. Command- ```git commit -m "<msg>"```.
 Format - ```Task #<task-no.> : description```. Mention any errors or issues in the code in the commit message, if any.
@@ -51,11 +51,11 @@ Format - ```Task #<task-no.> : description```. Mention any errors or issues in t
 
 ### Creating your own branch
 ```
-git checkout -b John-Doe
+git checkout -b [your-full-name] // no square brackets in actual command, use - for spaces
 ```
 ### Submitting your work
 ``` 
-git checkout John-Doe	// to make sure you are in your own branch
+git checkout [your-full-name]	// to make sure you are in your own branch
 git add .	// adds all files and subfolders to be committed in the current directory
 git commit -m "Task #0: description"
 git push origin John-Doe 
