@@ -69,4 +69,4 @@ git pull origin main
 
 - All solutions will be uploaded to main.
 
-- All tasks will be posted on the [wiki](https://github.com/agastya2002/wp2020temp/wiki).
+- All tasks will be posted on the [wiki](https://github.com/agastya2002/IECSE-ML-Winter-2020/wiki).
