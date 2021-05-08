@@ -1,0 +1,12 @@
+[user]
+	name = shourya2002-geek
+	email = 13.shourya@gmail.com
+[ore]
+	editor = code wait
+[core]
+	editor = code --wait
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

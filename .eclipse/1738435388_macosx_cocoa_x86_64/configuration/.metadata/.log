@@ -1,0 +1,414 @@
+!SESSION 2020-12-01 14:04:48.878 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -keyring /Users/ashutosh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data @noDefault -keyring /Users/ashutosh/.eclipse_keyring
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2020-12-01 14:04:57.485
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:151)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:246)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:168)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:119)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:397)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2020-12-01 14:04:57.491
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:151)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:268)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:168)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:119)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:397)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2020-12-01 14:18:45.308 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -keyring /Users/ashutosh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data @noDefault -keyring /Users/ashutosh/.eclipse_keyring
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2020-12-01 14:18:53.568
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:151)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:246)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:168)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:119)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:397)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2020-12-01 14:18:53.575
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:151)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:268)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:168)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:119)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:397)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2020-12-01 14:48:29.331 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -keyring /Users/ashutosh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data @noDefault -keyring /Users/ashutosh/.eclipse_keyring
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2020-12-01 14:48:37.814
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:151)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:246)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:168)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:119)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:397)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2020-12-01 14:48:37.820
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:151)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:268)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:168)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:119)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:397)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.209
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.214
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.219
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.220
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.226
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/pool/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.228
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/pool/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.237
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/pool/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2020-12-01 14:49:18.238
+!MESSAGE Loading 'file:/Users/ashutosh/.p2/pool/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-01 15:15:02.999
+!MESSAGE Connection to https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/releases/2020-09/202009161000/plugins/org.eclipse.tools.templates.core_1.2.0.202008310315.jar failed on Received fatal alert: handshake_failure. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-01 15:15:03.001
+!MESSAGE Connection to https://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/2020-09/202009161000/plugins/org.aopalliance_1.0.0.v201105210816.jar failed on Received fatal alert: handshake_failure. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-01 15:15:03.227
+!MESSAGE Connection to https://eclipse.mirror.rafal.ca/releases/2020-09/202009161000/plugins/org.eclipse.egit_5.9.0.202009080501-r.jar failed on Received fatal alert: handshake_failure. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-01 15:15:03.785
+!MESSAGE Connection to https://mirrors.neusoft.edu.cn/eclipse/releases/2020-09/202009161000/plugins/org.eclipse.cdt.meson.ui.editor_1.1.0.202008310315.jar failed on Received fatal alert: handshake_failure. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.dispatch(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2020-12-01 20:46:29.606
+!MESSAGE Device is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4869)
+	at org.eclipse.swt.SWT.error(SWT.java:4784)
+	at org.eclipse.swt.SWT.error(SWT.java:4755)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1103)
+	at org.eclipse.swt.widgets.Display.checkDevice(Display.java:645)
+	at org.eclipse.swt.widgets.Display.removeListener(Display.java:4068)
+	at org.eclipse.oomph.setup.internal.installer.Installer.runEventLoop(Installer.java:398)
+	at org.eclipse.oomph.setup.internal.installer.SimpleInstallerDialog.runEventLoop(SimpleInstallerDialog.java:963)
+	at org.eclipse.oomph.setup.internal.installer.AbstractSimpleDialog.show(AbstractSimpleDialog.java:194)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:295)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:397)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.osgi 4 0 2020-12-01 20:46:29.669
+!MESSAGE Application error
+!STACK 1
+org.eclipse.core.runtime.AssertionFailedException: null argument:The dialog should be created in UI thread
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:88)
+	at org.eclipse.jface.dialogs.IconAndMessageDialog.getSWTImage(IconAndMessageDialog.java:288)
+	at org.eclipse.jface.dialogs.IconAndMessageDialog.getErrorImage(IconAndMessageDialog.java:239)
+	at org.eclipse.jface.dialogs.MessageDialog.init(MessageDialog.java:239)
+	at org.eclipse.jface.dialogs.MessageDialog.<init>(MessageDialog.java:180)
+	at org.eclipse.oomph.ui.ErrorDialog.<init>(ErrorDialog.java:48)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication$7.<init>(InstallerApplication.java:404)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:404)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
